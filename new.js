@@ -10,6 +10,7 @@ function plusSlides(n, no) {
 
 function showSlides(n, no) {
   var i;
+  var timer;
   var x = document.getElementsByClassName(slideId[no]);
   if (n > x.length) {slideIndex[no] = 1}
   if (n < 1) {slideIndex[no] = x.length}
@@ -17,4 +18,7 @@ function showSlides(n, no) {
     x[i].style.display = "none";
   }
   x[slideIndex[no]-1].style.display = "block";
+
+  clearTimeout(timer);
+timer = setTimeout(() => plusSlides(1), 2000);
 } 
