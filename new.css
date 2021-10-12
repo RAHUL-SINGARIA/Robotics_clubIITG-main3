@@ -63,6 +63,7 @@ border: 4px solid rgb(97, 98, 99);
 margin-top: 20px;
 margin-bottom: 50px;
 
+
 }
 
 
@@ -127,4 +128,47 @@ height:30px;
 .active {
   background: rgb(68, 7, 7) !important;
   
+}
+
+.card-robo {
+  /* margin: auto; */
+  background-color: rgb(173, 196, 192);
+  margin: auto;
+  margin-bottom: -20px;
+}
+/* .robo-box{
+ background-color: white;
+ height: 35rem;
+ max-width: 703px;
+ margin: auto;
+ 
+ justify-content: center;
+ 
+} */
+.toggle-info-robo {
+left: 625px;
+top: 40px;
+border-radius: 32px;
+    /* height: 40px;
+    width: 100px; */
+    position: relative;
+    background-color: transparent;
+
+}
+
+.robo-div-text{
+color: #f1f1f1;
+
+padding-left: 15px;
+position: relative;
+top: -25px;
+width: 40%;
+
+
+}
+
+.arrow-button {
+background-color: transparent;
+cursor: pointer;
+
 }
